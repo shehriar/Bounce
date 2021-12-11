@@ -1,0 +1,3 @@
+SDL_Surface *tempSurface = IMG_Load("ball.png");
+playerTex = SDL_CreateTextureFromSurface(renderer, tempSurface);
+SDL_FreeSurface(tempSurface);
